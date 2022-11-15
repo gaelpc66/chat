@@ -1,0 +1,56 @@
+.p{
+  border: red 5px outset;
+}
+body {
+    background: #9d9d9d;
+    height: calc(100vh - 60px);
+  }
+  .titulo1 {
+    border-top-width: 10px;
+    border-right-width: 1em;
+    border-bottom-width: thick;
+    border-left-width: thin;
+  }
+  
+  #contentWrap {
+    display: none;
+  }
+  
+  .contenedor {
+    height: 35rem;
+    overflow-y: scroll;
+  }
+  
+  .error {
+    color: red;
+  }
+  
+  .whisper {
+    color: gray;
+    font-style: italic;
+  }
+  
+
+  #salida{
+
+    position:relative;
+    display: inline-block;
+    justify-content: space-evenly;
+    box-sizing:border-box;
+    -webkit-box-sizing:content-box;
+    float: right;
+    width: 33.33%;
+    padding: 5px;
+    background: #bf7130;
+    display: block;
+    padding: 10px;
+    margin: 0 15px 0 0;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    background: rgba(0, 0, 0, .15);
+    border: 1px solid #333333;
+    width: 400px;
+    height: 200px;
+    overflow: scroll;
+  }
